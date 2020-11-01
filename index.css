@@ -1,0 +1,69 @@
+.grid-container{
+	display: grid;
+	grid-template-rows: 100px 20px 150px 30px 400px 100px;
+	grid-template-columns: auto 20px 150px 150px 150px 150px 20px auto;
+	grid-gap: 30px;
+}
+.backcolor{
+	grid-column: 2/8;
+	grid-row: 2/6;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+.backimage{
+	grid-column: 1/9;
+	grid-row: 1/7;
+	background-image: url("images/achtergrond.jpg");
+	background-size: auto;
+}
+.fris{
+	grid-row: 3/4;
+	grid-column: 3/4;
+	width: 150px;
+	height: 150px;
+}
+.bier{
+	grid-row: 3/4;
+	grid-column: 4/5;
+	width: 150px;
+	height: 150px;
+}
+.wijn{
+	grid-row: 3/4;
+	grid-column: 5/6;
+	width: 150px;
+	height: 150px;
+}
+.bitterballen{
+	grid-row: 3/4;
+	grid-column: 6/7;
+	width: 150px;
+	height: 150px;
+}
+.frisprijs{
+	grid-row: 4/5;
+	grid-column: 3/4;
+}
+.bierprijs{
+	grid-row: 4/5;
+	grid-column: 4/5;
+}
+.wijnprijs{
+	grid-row: 4/5;
+	grid-column: 5/6;
+}
+.bitterballenprijs{
+	grid-row: 4/5;
+	grid-column: 6/7;
+}
+p{
+	color: white;
+}
+.bestellingmaken{
+	grid-column: 3/7;
+	grid-row: 5/6;
+	color: white;
+	text-align: center;
+}
+.bestellingmaken p{
+	display: inline-block;
+}
